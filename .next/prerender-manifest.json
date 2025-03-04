@@ -1,0 +1,79 @@
+{
+  "version": 4,
+  "routes": {
+    "/": {
+      "initialRevalidateSeconds": 10,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/0PprsuhQ5rKuqKBZJLLiy/index.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/67c6f17abdf20223f99c9d5d": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[meetupId]",
+      "dataRoute": "/_next/data/0PprsuhQ5rKuqKBZJLLiy/67c6f17abdf20223f99c9d5d.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/67c6f20ebdf20223f99c9d5e": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[meetupId]",
+      "dataRoute": "/_next/data/0PprsuhQ5rKuqKBZJLLiy/67c6f20ebdf20223f99c9d5e.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/67c6f346bdf20223f99c9d5f": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[meetupId]",
+      "dataRoute": "/_next/data/0PprsuhQ5rKuqKBZJLLiy/67c6f346bdf20223f99c9d5f.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {
+    "/[meetupId]": {
+      "routeRegex": "^/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/0PprsuhQ5rKuqKBZJLLiy/[meetupId].json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/0PprsuhQ5rKuqKBZJLLiy/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "3fa3e7c1025e62ff9199524a4170424c",
+    "previewModeSigningKey": "cba3856cf886675e588505ab874b442700081465f2cbbcb7a4ddd9549996cc2b",
+    "previewModeEncryptionKey": "3a03c9352d8f1f4bb9306f5b49c0e39edb9da8fe7b2c2ca09d30498c04ba402c"
+  }
+}
